@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: b2mxt6kxz-go-repository
+spec:
+  url: https://github.com/rhtap-qe-jsmid/b2mxt6kxz-go

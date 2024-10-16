@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: b2mxt6kxz-go
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: b2mxt6kxz-go 
+  name: b2mxt6kxz-go
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: b2mxt6kxz-go 
